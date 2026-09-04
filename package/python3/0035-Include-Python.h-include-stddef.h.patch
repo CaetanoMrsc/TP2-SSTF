@@ -1,0 +1,11 @@
+--- a/Include/Python.h
++++ b/Include/Python.h
+@@ -32,6 +32,8 @@
+ #include <errno.h>
+ #endif
+ #include <stdlib.h>
++#include <stddef.h>
++#include <wchar.h>
+ #ifndef MS_WINDOWS
+ #include <unistd.h>
+ #endif
