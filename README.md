@@ -58,10 +58,6 @@ A aplicação retorna:
 
 ## Evidências de execução
 
-### Resposta do endpoint `/status`
-
-A aplicação retorna as informações do sistema em formato JSON.
-
 ![Resposta do endpoint /status - parte 1](systeminfo-images/01-status-inicial.png)
 
 ![Resposta do endpoint /status - parte 2](systeminfo-images/02-status-processos.png)
