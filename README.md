@@ -1,3 +1,7 @@
+# GRUPO
+
+Caetano Marasca, Joao Francisco Schnur Dallanora e Luiz Augusto Guerra
+
 # SystemInfo
 
 Aplicação Python 3 executada automaticamente no Buildroot.
@@ -51,3 +55,15 @@ A aplicação retorna:
 
 - `200 OK` para `/status`, com conteúdo JSON.
 - `404 Not Found` para outras URLs.
+
+## Evidências de execução
+
+### Resposta do endpoint `/status`
+
+A aplicação retorna as informações do sistema em formato JSON.
+
+![Resposta do endpoint /status - parte 1](systeminfo-images/01-status-inicial.png)
+
+![Resposta do endpoint /status - parte 2](systeminfo-images/02-status-processos.png)
+
+![Resposta do endpoint /status - parte 3](systeminfo-images/03-status-final.png)
