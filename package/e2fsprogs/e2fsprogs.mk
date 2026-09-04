@@ -88,7 +88,7 @@ E2FSPROGS_INSTALL_TARGET_OPTS = \
 
 # Package does not build in parallel due to improper make rules
 define HOST_E2FSPROGS_INSTALL_CMDS
-	$(HOST_MAKE_ENV) $(MAKE1) -C $(@D) install install-libs
+	$(HOST_MAKE_ENV) $(MAKE1) -C $(@D) MKDIR_P="mkdir -p" install install-libs
 endef
 
 # Remove compile_et which raises a build failure with samba4
