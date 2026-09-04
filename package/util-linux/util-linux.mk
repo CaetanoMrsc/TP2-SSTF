@@ -200,6 +200,7 @@ HOST_UTIL_LINUX_CONF_OPTS += \
 	--without-ncurses \
 	--without-ncursesw \
 	--without-tinfo
+HOST_UTIL_LINUX_CONF_OPTS += --disable-kill
 
 # Disable raw command since starting from version 2.37 needs a
 # work-around to build but in the end we don't need at all.
